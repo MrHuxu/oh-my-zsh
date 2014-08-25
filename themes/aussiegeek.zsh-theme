@@ -1,6 +1,6 @@
 
 PROMPT='$fg[blue]%n@%m:$fg[red]%~ $(git_prompt_info) $fg_bold[yellow]$(rvm_prompt_info)$reset_color
-▶ '
+%{$fg[magenta]%}▶ '
 # git theming
 ZSH_THEME_GIT_PROMPT_PREFIX="$fg_bold[green]("
 ZSH_THEME_GIT_PROMPT_SUFFIX=")"
